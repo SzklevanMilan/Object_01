@@ -13,8 +13,9 @@ namespace Object_01
        public int eletkor;
         public string Bemutatkozas()
         {
-            string valasz =$"{nev} vagyok {eletkor} éves.";
-            return valasz;
+            //string valasz =$"{nev} vagyok {eletkor} éves.";
+            //return valasz;
+            return $"{nev} vagyok {eletkor} éves.";
         }
     }
 
